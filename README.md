@@ -50,12 +50,12 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   RMSE = 30.926 -> A RMSE mede a média da magnitude dos erros de previsão ao elevar ao quadrado os erros, calcular a média desses valores e, em seguida, tirar a raiz quadrada. Um valor de 30.926 indica que o desvio padrão dos erros de previsão é de aproximadamente 30.926 unidades. Valores mais baixos indicam previsões mais precisas.
 -   MASE = 0.880 -> A MASE compara a precisão do modelo com a de uma previsão simples baseada na média histórica, normalizando o erro absoluto médio pelo erro absoluto médio de um modelo de referência. Um valor de 0.880 indica que o modelo é, em média, 12% mais preciso do que o modelo de referência. Valores abaixo de 1 indicam que o modelo é melhor que o de referência.
 
-Resumo
-Avg. wQL (0.437): Indica uma boa performance em prever intervalos de confiança.
-MAPE (1.345): Mostra que as previsões têm um erro percentual alto, o que pode ser um sinal de que o modelo precisa ser ajustado.
-WAPE (0.754): Oferece uma visão mais realista do erro percentual, mostrando um desempenho razoável.
-RMSE (30.926): O desvio padrão dos erros é alto, sugerindo que os erros são substanciais.
-MASE (0.880): Indica que o modelo é melhor que um modelo de referência simples, mas ainda há espaço para melhorias.
+Resumo:
+- Avg. wQL (0.437): Indica uma boa performance em prever intervalos de confiança.
+- MAPE (1.345): Mostra que as previsões têm um erro percentual alto, o que pode ser um sinal de que o modelo precisa ser ajustado.
+- WAPE (0.754): Oferece uma visão mais realista do erro percentual, mostrando um desempenho razoável.
+- RMSE (30.926): O desvio padrão dos erros é alto, sugerindo que os erros são substanciais.
+- MASE (0.880): Indica que o modelo é melhor que um modelo de referência simples, mas ainda há espaço para melhorias.
 
 
 ## 🤔 Dúvidas?
