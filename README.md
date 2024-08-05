@@ -44,6 +44,10 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 ## 📋 Resultados
 
+Dataset utilizado: dataset-1000-com-preco-promocional-e-renovacao-estoque.csv
+
+Model type: Time series forecasting(O modelo irá prever QUANTIDADE_ESTOQUE usando valores de dados passados ​​para prever valores de dados futuros.)
+
 -   Avg. wQL = 0.437 -> A perda quantílica ponderada média avalia a performance de previsões para diferentes quantis. A quantile loss é útil para prever intervalos de confiança, não apenas um valor central, permitindo entender a incerteza das previsões. Um valor de 0.437 indica a média da perda ponderada através de diferentes quantis. Quanto menor o valor, melhor a previsão do modelo em termos de quantis.
 -   MAPE = 1.345 -> A MAPE mede a precisão da previsão como uma porcentagem. É calculada pela média dos erros absolutos divididos pelos valores reais. Com um valor de 1.345, isso significa que, em média, as previsões do modelo estão errando em 134.5%. MAPE é frequentemente criticado por amplificar erros em previsões de valores baixos.
 -   WAPE = 0.754 -> Semelhante ao MAPE, mas ponderado pelos valores reais. Isso ajuda a evitar que grandes erros em valores baixos distorçam a métrica. Um valor de 0.754 indica que a média ponderada dos erros absolutos é de 75.4%. Oferece uma visão mais equilibrada do desempenho do modelo em relação ao MAPE.
